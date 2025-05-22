@@ -18,3 +18,5 @@ jobs:
     steps:
     - run: echo event_name=${{ github.event_name }}
     - run: echo branch=${{ github.ref }}
+    - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+    - run: ls -lAR
