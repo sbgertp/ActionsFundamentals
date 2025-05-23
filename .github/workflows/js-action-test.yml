@@ -3,4 +3,4 @@ on:
   workflow_dispatch:
 jobs:
   job:
-    uses: sbgertp/js-action-demo
+    uses: sbgertp/js-action-demo@main
