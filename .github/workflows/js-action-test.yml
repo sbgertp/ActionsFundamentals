@@ -1,0 +1,6 @@
+name: JS Action test
+on:
+  workflow_dispatch:
+jobs:
+  job:
+    uses: sbgertp/js-action-demo
